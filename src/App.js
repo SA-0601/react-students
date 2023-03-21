@@ -8,7 +8,7 @@ export default function App() {
  
   return (
     <div className='App'>
-      <h1>Students Data</h1>
+      <h1 class="bg-info text-white">Students Data</h1>
         {studentData.map((ele,index) => (
       <Student {...ele} key={index}/>
     ))}
